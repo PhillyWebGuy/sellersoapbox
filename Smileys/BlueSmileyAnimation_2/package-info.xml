@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+  <id>cserrobi_wasdMan:blue_smiley</id>
+  <name>Animation Blue Smiley</name>
+  <version>2.1</version>
+  <type>modification</type>
+  <install for="1.1.16 - 1.1.99, 2.0 - 2.99.99">
+    <require-dir name="bsa" destination="$smileysdir" />
+  </install>
+  <uninstall for="1.1.16 - 1.1.99, 2.0 - 2.99.99">
+    <remove-dir name="$smileysdir/bsa" />
+  </uninstall>
+</package-info>

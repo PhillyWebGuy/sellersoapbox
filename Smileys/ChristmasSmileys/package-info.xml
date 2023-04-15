@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+  <id>Vyorel:christmassmileys</id>
+  <name>Christmas Smileys</name>
+  <version>1.2</version>
+  <type>modification</type>
+  <install for="1.1.0 - 1.1.99, 2.0. - 2.0.99">
+    <require-dir name="christmassmileys" destination="$smileysdir" />
+	<code>install.php</code>
+	<readme parsebbc="true">readme.txt</readme>
+	<redirect url="?action=admin;area=smileys" />
+  </install>
+  <uninstall for="1.1.0 - 1.1.99, 2.0. - 2.0.99">
+    <remove-dir name="$smileysdir/christmassmileys" />
+	<code>uninstall.php</code>
+  </uninstall>
+</package-info>
